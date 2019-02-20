@@ -20,8 +20,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: npm test
       - run:
-          name: release
-          command: npm run semantic-release || true
-      - run:
           name: build
           command: npm run build
+      - run:
+          name: release
+          command: npm run semantic-release || true
