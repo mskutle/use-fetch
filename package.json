@@ -2,7 +2,7 @@
   "name": "use-fetch",
   "version": "0.0.0-development",
   "description": "useFetch hook to simplify making fetch requests from your React app",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib",
     "test": "exit 0",
