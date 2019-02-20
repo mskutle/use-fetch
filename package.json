@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "Magne Skutle",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mskutle/use-fetch/issues"
   },
