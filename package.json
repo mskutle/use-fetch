@@ -1,0 +1,30 @@
+{
+  "name": "use-fetch",
+  "version": "1.0.0",
+  "description": "useFetch hook to simplify making fetch requests from your React app",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskutle/use-fetch.git"
+  },
+  "keywords": [],
+  "author": "Magne Skutle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mskutle/use-fetch/issues"
+  },
+  "homepage": "https://github.com/mskutle/use-fetch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": " >= 16.8.0"
+  }
+}
