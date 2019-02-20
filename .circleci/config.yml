@@ -13,7 +13,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: npm install
+      - run: npm ci
       - save_cache:
           paths:
             - node_modules
@@ -24,4 +24,4 @@ jobs:
           command: npm run build
       - run:
           name: release
-          command: npm run semantic-release || true
+          command: npm run semantic-release
