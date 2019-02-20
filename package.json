@@ -1,15 +1,16 @@
 {
   "name": "use-fetch",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "useFetch hook to simplify making fetch requests from your React app",
   "main": "./src/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir lib",
-    "test": "exit 0"
+    "test": "exit 0",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mskutle/use-fetch.git"
+    "url": "https://github.com/mskutle/use-fetch.git"
   },
   "keywords": [],
   "author": "Magne Skutle",
@@ -21,7 +22,8 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1"
+    "@babel/preset-env": "^7.3.1",
+    "semantic-release": "^15.13.3"
   },
   "peerDependencies": {
     "react": ">= 16.8.0",
