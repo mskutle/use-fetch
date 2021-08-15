@@ -22,6 +22,8 @@ function useFetch(url, options, dependencies) {
       });
   }, dependencies);
 
+  // Test comment
+  
   return {
     loading,
     data,
